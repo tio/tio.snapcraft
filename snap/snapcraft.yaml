@@ -1,7 +1,11 @@
 name: tio
 version: "1.27"
 summary: A simple TTY terminal I/O application
-description: Tio is a simple TTY terminal application which features a straightforward commandline interface to easily connect to TTY devices for basic input/output.
+description: |
+  Tio is a simple TTY terminal application which features a straightforward
+  commandline interface to easily connect to TTY devices for basic
+  input/output.
+
 grade: stable
 confinement: strict
 
