@@ -1,0 +1,17 @@
+name: tio
+version: "1.27"
+summary: A simple TTY terminal I/O application
+description: Tio is a simple TTY terminal application which features a straightforward commandline interface to easily connect to TTY devices for basic input/output.
+grade: stable
+confinement: strict
+
+apps:
+  tio:
+    command: bin/tio
+    completer: share/bash-completion/completions/tio
+    plugs: [serial-port]
+
+parts:
+  tio:
+    plugin: autotools
+    source: https://github.com/tio/tio/releases/download/v1.27/tio-1.27.tar.xz
