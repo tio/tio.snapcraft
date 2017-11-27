@@ -1,5 +1,5 @@
 name: tio
-version: '1.27'
+version: '1.28'
 summary: A simple TTY terminal I/O application
 description: |
   Tio is a simple TTY terminal application which features a straightforward
