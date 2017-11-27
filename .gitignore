@@ -3,3 +3,5 @@ parts
 prime
 stage
 snap/.snapcraft
+*.bz2
+*.xdelta*
