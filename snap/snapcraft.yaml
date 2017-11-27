@@ -18,4 +18,4 @@ apps:
 parts:
   tio:
     plugin: autotools
-    source: https://github.com/tio/tio/releases/download/v1.27/tio-1.27.tar.xz
+    source: https://github.com/tio/tio.git
