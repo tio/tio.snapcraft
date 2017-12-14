@@ -1,5 +1,5 @@
 name: tio
-version: '1.28'
+version: '1.29'
 summary: A simple TTY terminal I/O application
 description: |
   Tio is a simple TTY terminal application which features a straightforward
@@ -13,7 +13,7 @@ apps:
   tio:
     command: bin/tio
     completer: share/bash-completion/completions/tio
-    plugs: [home,serial-port]
+    plugs: [home, serial-port]
 
 parts:
   tio:
