@@ -7,7 +7,7 @@ description: >
   input/output.
 
 grade: stable
-confinement: strict
+confinement: classic
 
 apps:
   tio:
