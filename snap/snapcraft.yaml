@@ -13,7 +13,6 @@ apps:
   tio:
     command: bin/tio
     completer: share/bash-completion/completions/tio
-    plugs: [home, serial-port]
 
 parts:
   tio:
