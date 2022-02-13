@@ -1,20 +1,29 @@
 name: tio
-version: '1.32'
-summary: A simple TTY terminal I/O application
+version: '1.33'
+summary: A simple TTY terminal I/O tool
 description: >
-  Tio is a simple TTY terminal application which features a straightforward
+  tio is a simple TTY terminal tool which features a straightforward
   commandline interface to easily connect to TTY devices for basic
   input/output.
 
+base: core20
 grade: stable
 confinement: classic
 
 apps:
   tio:
-    command: bin/tio
-    completer: share/bash-completion/completions/tio
+    command: usr/bin/tio
+    completer: usr/share/bash-completion/completions/tio
 
 parts:
   tio:
-    plugin: autotools
+    plugin: meson
     source: https://github.com/tio/tio.git
+    meson-parameters:
+      - --prefix=/usr
+    build-packages:
+      - pkg-config
+      - cmake
+      - bash-completion
+    stage-packages:
+      - bash-completion
