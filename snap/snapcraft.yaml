@@ -3,8 +3,8 @@ version: '1.33'
 summary: A simple TTY terminal I/O tool
 description: >
   tio is a simple TTY terminal tool which features a straightforward
-  commandline interface to easily connect to TTY devices for basic
-  input/output.
+  commandline interface to easily connect to TTY devices for basic I/O
+  operations.
 
 base: core20
 grade: stable
