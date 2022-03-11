@@ -25,5 +25,7 @@ parts:
       - pkg-config
       - cmake
       - bash-completion
+      - libinih-dev
     stage-packages:
       - bash-completion
+      - libinih1
