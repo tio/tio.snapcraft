@@ -19,6 +19,7 @@ parts:
   tio:
     plugin: meson
     source: https://github.com/tio/tio.git
+    source-tag: v2.2
     meson-parameters:
       - --prefix=/usr
     build-packages:
