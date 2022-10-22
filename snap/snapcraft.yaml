@@ -1,5 +1,5 @@
 name: tio
-version: '2.2'
+version: '2.3'
 summary: A simple serial device I/O tool
 description: >
   tio is a simple serial device tool which features a straightforward
@@ -19,7 +19,7 @@ parts:
   tio:
     plugin: meson
     source: https://github.com/tio/tio.git
-    source-tag: v2.2
+    # source-tag: v2.2
     meson-parameters:
       - --prefix=/usr
     build-packages:
