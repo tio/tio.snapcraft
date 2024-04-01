@@ -27,6 +27,8 @@ parts:
       - cmake
       - bash-completion
       - libinih-dev
+      - liblua5.2-dev
     stage-packages:
       - bash-completion
       - libinih1
+      - liblua5.2-0
