@@ -28,7 +28,9 @@ parts:
       - bash-completion
       - libinih-dev
       - liblua5.2-dev
+      - libglib2.0-dev
     stage-packages:
       - bash-completion
       - libinih1
       - liblua5.2-0
+      - libglib2.0-0
