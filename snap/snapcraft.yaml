@@ -1,5 +1,5 @@
 name: tio
-version: '3.3'
+version: '3.4'
 summary: A serial device I/O tool
 description: >
   tio is a serial device tool which features a straightforward commandline and
