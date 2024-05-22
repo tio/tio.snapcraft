@@ -34,3 +34,5 @@ parts:
       - bash-completion
       - liblua5.2-0
       - libglib2.0-0
+    build-attributes:
+      - enable-patchelf
