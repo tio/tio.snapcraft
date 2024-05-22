@@ -6,7 +6,7 @@ description: >
   configuration file interface to easily connect to TTY devices for basic I/O
   operations.
 
-base: core20
+base: core22
 grade: stable
 confinement: classic
 
@@ -25,6 +25,8 @@ parts:
     build-packages:
       - pkg-config
       - cmake
+      - meson
+      - ninja-build
       - bash-completion
       - liblua5.2-dev
       - libglib2.0-dev
